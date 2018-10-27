@@ -1,4 +1,4 @@
-# Matriz de Ordenação do Keep Alive`
+# Matriz de Ordenação do Keep Alive
 
 Pequeno _script_ `Shell` que cria uma matriz para organizar as prioridades de um Cluster Keep Alive (`keepalived`).
 
