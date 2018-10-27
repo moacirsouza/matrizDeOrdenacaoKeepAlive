@@ -9,5 +9,4 @@ A estrutura básica da Matriz é descrita a seguir:
 |   | a | b | c | d | e | f |
 -----------------------------
 | a | 1 | 2 | 3 | 4 | 5 | 6 |
------------------------------
  
