@@ -6,7 +6,11 @@ A estrutura básica da Matriz é descrita a seguir:
 
 1. Para um Cluster com 6 nós
 
-| d | a | b | c | d | e | f |
+|   | a | b | c | d | e | f |
 |---|---|---|---|---|---|---|
 | a | 1 | 2 | 3 | 4 | 5 | 6 |
- 
+| b | 2 | 3 | 4 | 5 | 6 | 1 |
+| c | 3 | 4 | 5 | 6 | 1 | 2 |
+| d | 4 | 5 | 6 | 1 | 2 | 3 |
+| e | 5 | 6 | 1 | 2 | 3 | 4 |
+| f | 6 | 1 | 2 | 3 | 4 | 5 |
