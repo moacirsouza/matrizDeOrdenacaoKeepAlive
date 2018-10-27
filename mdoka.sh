@@ -5,12 +5,12 @@
 funcao(){
     array=( $(seq 1 $1))
 
-    echo ${array[@]}
-    echo ${array[0]}
+    # echo ${array[@]}
+    # echo ${array[0]}
 
     for i in ${array[@]}
     do
-        echo "lala: $i"
+        echo "${array[@]:1:2}"
     done
 }
 
