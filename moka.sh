@@ -30,7 +30,7 @@ funcao(){
         echo "Topo do Array: $topoDoArray"
 
         # echo "Depois do unset: ${array[@]}"
-        array2=(${array[@]})
+        array2=(${array[@]} $topoDoArray)
         array[$tamanhoDoArray]=$topoDoArray
         echo -e "Depois da reatribuição do array: ${array2[@]} \n"
     done
