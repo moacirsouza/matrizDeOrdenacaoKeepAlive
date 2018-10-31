@@ -13,7 +13,7 @@ funcao(){
     for i in ${array[@]}
     do
         #echo "Número da iteração ${i}"
-        echo "Tamanho do Array: ${tamanhoDoArray}"
+        #echo "Tamanho do Array: ${tamanhoDoArray}"
         echo "Antes do unset: ${array[@]}"
 
         ### Recebe o primeiro elemento do Array atual
@@ -29,10 +29,11 @@ funcao(){
         # array[$i-1]="$topoDoArray" 
         echo "Topo do Array: $topoDoArray"
 
-        # echo "Depois do unset: ${array[@]}"
-        array2=(${array[@]} $topoDoArray)
-        array[$tamanhoDoArray]=$topoDoArray
-        echo -e "Depois da reatribuição do array: ${array2[@]} \n"
+        echo "Depois do unset: ${array[@]}"
+        #array2=(${array[@]} $topoDoArray)
+        #array=${array2[@]}
+        echo array[$tamanhoDoArray]=$topoDoArray
+        echo -e "Depois da reatribuição do array: ${array[@]} \n"
     done
 }
 
